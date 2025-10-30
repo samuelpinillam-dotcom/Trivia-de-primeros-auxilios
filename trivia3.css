@@ -90,3 +90,52 @@ footer {
 }
 
 .hidden { display: none; }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+    background: linear-gradient(to bottom, #fff7ed, #ffedd5);
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .container {
+    width: 92%;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #question {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 18px;
+  }
+
+  #choices {
+    gap: 10px;
+  }
+
+  .choice {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .btn {
+    width: 85%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}
