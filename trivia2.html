@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Trivia 2 — Seguridad y Prevención</title>
+  <link rel="stylesheet" href="trivia2.css">
+</head>
+<body>
+  <header>
+    <h1>Trivia de Seguridad y Prevención</h1>
+    <nav><a href="index.html">Volver al inicio</a></nav>
+  </header>
+
+  <main class="container">
+    <section id="intro" class="card">
+      <h2>¡Aprende a cuidarte!</h2>
+      <p>Responde preguntas sobre seguridad en casa, el colegio y la calle.</p>
+      <button id="start-btn" class="btn">Iniciar Trivia</button>
+    </section>
+
+    <section id="trivia" class="card hidden">
+      <p id="question"></p>
+      <div id="choices"></div>
+      <div class="controls">
+        <button id="next-btn" class="btn secondary hidden">Siguiente</button>
+        <button id="restart-btn" class="btn secondary hidden">Reiniciar</button>
+      </div>
+      <div id="score" class="hidden">Puntaje: <span id="points">0</span></div>
+    </section>
+
+    <section id="result" class="card hidden">
+      <h2 id="result-title"></h2>
+      <p id="result-message"></p>
+      <a href="index.html" class="btn">Volver al inicio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>AuxiTrivia — Seguridad y Prevención</p>
+  </footer>
+
+  <script src="trivia2.js"></script>
+</body>
+</html>

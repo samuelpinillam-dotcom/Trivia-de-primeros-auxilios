@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AuxiTrivia - Trivia</title>
+  <link rel="stylesheet" href="trivia1.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Trivia de Primeros Auxilios</h1>
+    <nav>
+      <a href="index.html">Volver al inicio</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section id="intro" class="card">
+      <h2>¿Estás listo para salvar vidas?</h2>
+      <p>Responde preguntas y aprende primeros auxilios de forma divertida.</p>
+      <button id="start-btn" class="btn">Iniciar Trivia</button>
+    </section>
+
+ 
+    <section id="trivia" class="card hidden">
+      <p id="question"></p>
+      <div id="choices"></div>
+      <div class="controls">
+        <button id="next-btn" class="btn secondary hidden">Siguiente</button>
+        <button id="restart-btn" class="btn secondary hidden">Reiniciar</button>
+      </div>
+      <div id="score" class="hidden">Puntaje: <span id="points">0</span></div>
+    </section>
+
+   
+    <section id="result" class="card hidden">
+      <h2 id="result-title"></h2>
+      <p id="result-message"></p>
+      <a href="index.html" class="btn" id="btn-back">Volver al inicio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>AuxiTrivia — Proyecto educativo</p>
+  </footer>
+
+  <script src="trivia1.js"></script>
+</body>
+</html>
