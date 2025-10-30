@@ -68,3 +68,45 @@ footer {
   background: #14532d;
   color: #e5e7eb;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  header {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+
+  .container {
+    width: 92%;
+    padding: 10px;
+  }
+
+  #question {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  #choices {
+    gap: 10px;
+  }
+
+  .choice {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .btn {
+    width: 85%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
