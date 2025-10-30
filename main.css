@@ -141,3 +141,39 @@ footer {
 .btn.orange:hover {
   background: #d97706;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .logo-img {
+    width: 100px;
+    margin: 15px auto;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
